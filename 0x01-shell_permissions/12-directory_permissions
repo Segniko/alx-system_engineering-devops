@@ -1,2 +1,2 @@
 #!/bin/bash
-mkidr -m 751 dir_alx
+mkidr -m 751 my_dir
