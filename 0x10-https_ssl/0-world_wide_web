@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# print domains and subdomains
+#print domains and subdomains
 
 function audit_subdomain {
     local domain=$1
@@ -25,3 +25,5 @@ if [ $# -lt 1 ]; then
     echo "Usage: $0 <domain> [<subdomain>]"
     exit 1
 fi
+
+audit_subdomain $1 $2
